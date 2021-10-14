@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <EmailEditor />
       <FlowEditor />
-      <Button>click me</Button>
+      <Button>click!</Button>
     </div>
   );
 }
