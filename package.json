@@ -1,8 +1,7 @@
 {
-  "name": "noname-ui",
+  "name": "@noname-ui/react",
   "version": "0.0.0",
   "license": "MIT",
-  "private": true,
   "workspaces": [
     "packages/*",
     "demo"
