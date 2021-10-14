@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "**/.fttemplates/**/*.ts": "plaintext",
+    "**/.fttemplates/**/*.tsx": "plaintext"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

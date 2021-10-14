@@ -1,0 +1,27 @@
+{
+    "name": "@noname-ui/flow-editor",
+    "version": "0.0.0",
+    "files": [
+        "dist"
+    ],
+    "types": "./dist/src/index.d.ts",
+    "main": "./dist/flow-editor.umd.js",
+    "module": "./dist/flow-editor.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/flow-editor.es.js",
+            "require": "./dist/flow-editor.umd.js"
+        }
+    },
+    "scripts": {
+        "dev": "tsc && vite build -w",
+        "build": "tsc && vite build"
+    },
+    "peerDependencies": {
+        "react": "16 || 17"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0"
+    }
+}
