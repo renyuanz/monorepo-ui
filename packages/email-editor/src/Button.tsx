@@ -1,6 +1,6 @@
 import React from "react";
 const Button: React.FC = ({ children }) => {
-  return <button>{children}</button>;
+  return <button>{children} 123</button>;
 };
 
 export { Button };
